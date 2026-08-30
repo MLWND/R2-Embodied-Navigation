@@ -1,0 +1,7 @@
+float32 ascend_pos    # 位置（单位：mm） 范围 0-600mm
+uint8   ascend_speed  # 升降机构速度（0-100%） 
+uint8   reserve       # 预留字段2
+---
+# Response
+bool success
+string message

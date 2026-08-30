@@ -1,0 +1,8 @@
+# Request
+int32 distance   # 直线移动距离(mm) - 与angle互斥
+int32 angle      # 旋转角度(度, -180~180) - 与distance互斥
+float32 speed    # 移动速度(m/s或°/s)
+---
+# Response
+bool success
+string message

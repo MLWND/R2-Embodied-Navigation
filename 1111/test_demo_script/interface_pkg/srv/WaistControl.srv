@@ -1,0 +1,7 @@
+float32 waist_angle   # 关节角度（度） 范围：0-90度
+uint8   waist_speed   # 腰部速度（0-100%） 
+uint8   reserve       # 预留字段1
+---
+# Response
+bool success
+string message

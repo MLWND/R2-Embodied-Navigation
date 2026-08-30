@@ -1,0 +1,1 @@
+controller_joint_names: ['', 'wheel_left_joint', 'wheel_right_joint', 'lift_joint', 'waist_joint', 'head_joint', 'J1_left_joint', 'J2_left_joint', 'J3_left_joint', 'J4_left_joint', 'J5_left_joint', 'J6_left_joint', 'J7_left_joint', 'J1_right_joint', 'J2_right_joint', 'J3_right_joint', 'J4_right_joint', 'J5_right_joint', 'J6_right_joint', 'J7_right_joint', ]

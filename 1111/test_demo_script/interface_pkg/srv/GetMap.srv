@@ -1,0 +1,6 @@
+# Request
+bool get_map # true - 获取 ， false - 不获取
+---
+# Response
+bool success
+string message

@@ -1,0 +1,399 @@
+{
+  "total_episodes": 39,
+  "success_rate": 43.58974358974359,
+  "avg_error_m": 2.0171260424913506,
+  "avg_clearance_m": 0.5906929715837423,
+  "pure_ppo_baseline_success_rate": 0.0,
+  "episodes": [
+    {
+      "scene_id": "MWAX5JYKTKJZ2AABAAAAAEI8",
+      "instruction": "去厨房里的冰箱",
+      "target_room": "kitchen",
+      "target_object": "Refrigerator_model_646583ba0c74022e400a192f22c774b1_0 (冰箱)",
+      "final_err": 2.033649206161499,
+      "min_clearance": 0.3466375234723091,
+      "success": false,
+      "elapsed_sec": 21.30363655090332
+    },
+    {
+      "scene_id": "MWAX5JYKTKJZ2AABAAAAAEI8",
+      "instruction": "去客厅沙发前",
+      "target_room": "living_room",
+      "target_object": "Couch_model_ee74edc0dd16c474c8a8817a5393c55e_0 (客厅沙发)",
+      "final_err": 0.8201825022697449,
+      "min_clearance": 1.322965307235718,
+      "success": true,
+      "elapsed_sec": 3.5820209980010986
+    },
+    {
+      "scene_id": "MWAX5JYKTKJZ2AABAAAAAEI8",
+      "instruction": "去餐厅餐桌旁边",
+      "target_room": "kitchen",
+      "target_object": "Table_model_35565d61cac99576e47beb2a926bbf93_0 (餐桌)",
+      "final_err": 0.9127878546714783,
+      "min_clearance": 0.3370083251595497,
+      "success": false,
+      "elapsed_sec": 18.355602502822876
+    },
+    {
+      "scene_id": "MWAX5JYKTKJZ2AABAAAAAEI8",
+      "instruction": "去主卧的大床旁边",
+      "target_room": "living_room",
+      "target_object": "Bed_model_ef4a0445e92e0a3bcab74e2530f7713e_0 (卧室大床)",
+      "final_err": 0.7357731461524963,
+      "min_clearance": 1.5091563367843628,
+      "success": true,
+      "elapsed_sec": 1.2309818267822266
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAAAA8",
+      "instruction": "去厨房里的冰箱",
+      "target_room": "kitchen",
+      "target_object": "Refrigerator_model_ec6e07185e1118fa130e47e454b1bd4e_0 (冰箱)",
+      "final_err": 1.9082539081573486,
+      "min_clearance": 0.2723284384608268,
+      "success": false,
+      "elapsed_sec": 18.561223030090332
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAAAA8",
+      "instruction": "去客厅沙发前",
+      "target_room": "living_room",
+      "target_object": "Couch_model_fbf23246dfd8f0143d23d5814cbaff03_0 (客厅沙发)",
+      "final_err": 1.485685110092163,
+      "min_clearance": 0.27406026817858214,
+      "success": false,
+      "elapsed_sec": 18.692384481430054
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAAAA8",
+      "instruction": "去餐厅餐桌旁边",
+      "target_room": "kitchen",
+      "target_object": "Table_model_e6da468adb8d2af4a1a3f1c828f49eb7_0 (餐桌)",
+      "final_err": 2.292778968811035,
+      "min_clearance": 0.2723284384608268,
+      "success": false,
+      "elapsed_sec": 18.793282985687256
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAAAA8",
+      "instruction": "去主卧的大床旁边",
+      "target_room": "master_bedroom",
+      "target_object": "Bed_model_e172ce0b249165ef0a43909ba68dcfb9_0 (卧室大床)",
+      "final_err": 2.1545169353485107,
+      "min_clearance": 0.2723284384608268,
+      "success": false,
+      "elapsed_sec": 18.705312490463257
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAAAI8",
+      "instruction": "去厨房里的冰箱",
+      "target_room": "kitchen",
+      "target_object": "Refrigerator_model_ea7208a5119ba477e99f57e19e3ec8c5_0 (冰箱)",
+      "final_err": 0.8266029953956604,
+      "min_clearance": 0.33326477348804473,
+      "success": true,
+      "elapsed_sec": 10.33495831489563
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAAAI8",
+      "instruction": "去客厅沙发前",
+      "target_room": "living_room",
+      "target_object": "Couch_model_4fe13228e509e53e910e62c605f4f5b2_0 (客厅沙发)",
+      "final_err": 0.7854900360107422,
+      "min_clearance": 1.2595185573399068,
+      "success": true,
+      "elapsed_sec": 1.2103054523468018
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAAAI8",
+      "instruction": "去餐厅餐桌旁边",
+      "target_room": "kitchen",
+      "target_object": "Table_model_7e22df4193305463eeacdd2a451fdeb9_0 (餐桌)",
+      "final_err": 0.8509094715118408,
+      "min_clearance": 0.3302787372469902,
+      "success": false,
+      "elapsed_sec": 9.114910364151001
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAAAI8",
+      "instruction": "去主卧的大床旁边",
+      "target_room": "living_room",
+      "target_object": "Bed_model_f28ca4c17ea2ea5fbf5bb55998dfc4ec_0 (卧室大床)",
+      "final_err": 0.8239057660102844,
+      "min_clearance": 0.4457131081819534,
+      "success": true,
+      "elapsed_sec": 5.954016923904419
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAAAQ8",
+      "instruction": "去厨房里的冰箱",
+      "target_room": "kitchen",
+      "target_object": "Refrigerator_model_06769d75eb1df5724705ccf745aa9d26_0 (冰箱)",
+      "final_err": 0.8271312117576599,
+      "min_clearance": 0.36222468107938766,
+      "success": true,
+      "elapsed_sec": 10.003795385360718
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAAAQ8",
+      "instruction": "去客厅沙发前",
+      "target_room": "living_room",
+      "target_object": "Couch_model_ce9e799d7f878172dd8c4c54d23e5752_0 (客厅沙发)",
+      "final_err": 0.8217164278030396,
+      "min_clearance": 1.4269917249679567,
+      "success": true,
+      "elapsed_sec": 1.5878188610076904
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAAAQ8",
+      "instruction": "去餐厅餐桌旁边",
+      "target_room": "kitchen",
+      "target_object": "Table_model_fd0aa0be1645383ca0ff95134a426abe_0 (餐桌)",
+      "final_err": 0.8465703725814819,
+      "min_clearance": 0.31757718861103057,
+      "success": true,
+      "elapsed_sec": 16.21682620048523
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAAAQ8",
+      "instruction": "去主卧的大床旁边",
+      "target_room": "master_bedroom",
+      "target_object": "Bed_model_d5c8505152cee4dc92ca9f8844cc25e2_0 (卧室大床)",
+      "final_err": 0.748410165309906,
+      "min_clearance": 1.572543511390686,
+      "success": true,
+      "elapsed_sec": 1.154179573059082
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAAAY8",
+      "instruction": "去厨房里的冰箱",
+      "target_room": "kitchen",
+      "target_object": "Refrigerator_model_ffb8f3c3524a6af98fdc445c8788a5e7_0 (冰箱)",
+      "final_err": 0.8231399655342102,
+      "min_clearance": 0.8281754410266877,
+      "success": true,
+      "elapsed_sec": 4.341462135314941
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAAAY8",
+      "instruction": "去客厅沙发前",
+      "target_room": "living_room",
+      "target_object": "Couch_model_fbaa9f48352087965ea12b25773f6f17_0 (客厅沙发)",
+      "final_err": 0.880090594291687,
+      "min_clearance": 0.33697817265987395,
+      "success": false,
+      "elapsed_sec": 18.53327751159668
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAAAY8",
+      "instruction": "去餐厅餐桌旁边",
+      "target_room": "kitchen",
+      "target_object": "Table_model_2b9d5aa45476e4be343ac4a855c46f01_0 (餐桌)",
+      "final_err": 0.844039797782898,
+      "min_clearance": 0.37007212191820144,
+      "success": true,
+      "elapsed_sec": 7.098256587982178
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAAAY8",
+      "instruction": "去主卧的大床旁边",
+      "target_room": "master_bedroom",
+      "target_object": "Bed_model_1563ae838b28e290af5eb41c0786e4d6_0 (卧室大床)",
+      "final_err": 0.22937723994255066,
+      "min_clearance": 0.8608370280265809,
+      "success": true,
+      "elapsed_sec": 1.2733213901519775
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAABA8",
+      "instruction": "去厨房里的冰箱",
+      "target_room": "kitchen",
+      "target_object": "Refrigerator_model_9d747fd21105b89e2787648686363773_0 (冰箱)",
+      "final_err": 4.945652008056641,
+      "min_clearance": 0.25897424697875976,
+      "success": false,
+      "elapsed_sec": 21.7033371925354
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAABA8",
+      "instruction": "去客厅沙发前",
+      "target_room": "living_room",
+      "target_object": "Couch_model_d921a3076aef0e14ad5b460431a243d5_0 (客厅沙发)",
+      "final_err": 4.753314971923828,
+      "min_clearance": 0.25897424697875976,
+      "success": false,
+      "elapsed_sec": 17.18684983253479
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAABA8",
+      "instruction": "去餐厅餐桌旁边",
+      "target_room": "kitchen",
+      "target_object": "Table_model_0e084f30c652d581b7c6c6b025cd3681_0 (餐桌)",
+      "final_err": 2.55045747756958,
+      "min_clearance": 0.25897424697875976,
+      "success": false,
+      "elapsed_sec": 17.287177324295044
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAABA8",
+      "instruction": "去主卧的大床旁边",
+      "target_room": "living_room",
+      "target_object": "Bed_model_aaadbfa87142a55253f96ced569658d6_0 (卧室大床)",
+      "final_err": 2.909669876098633,
+      "min_clearance": 0.25897424697875976,
+      "success": false,
+      "elapsed_sec": 17.01372456550598
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAABI8",
+      "instruction": "去厨房里的冰箱",
+      "target_room": "kitchen",
+      "target_object": "Refrigerator_model_5b9a614a3c1e3ba547dce5555bfcc778_0 (冰箱)",
+      "final_err": 0.8100734949111938,
+      "min_clearance": 0.786409593820572,
+      "success": true,
+      "elapsed_sec": 3.3597419261932373
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAABI8",
+      "instruction": "去餐厅餐桌旁边",
+      "target_room": "kitchen",
+      "target_object": "Table_model_b451f039dd619a4e36c11fa2dcf10d6b_0 (餐桌)",
+      "final_err": 2.9407968521118164,
+      "min_clearance": 0.32692970544099803,
+      "success": false,
+      "elapsed_sec": 19.19266629219055
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAABI8",
+      "instruction": "去主卧的大床旁边",
+      "target_room": "kitchen",
+      "target_object": "Bed_model_2263a83ec3e58f8f24c2d958d8d5225f_0 (卧室大床)",
+      "final_err": 0.8344131112098694,
+      "min_clearance": 0.7196248161792755,
+      "success": true,
+      "elapsed_sec": 1.827573299407959
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAABQ8",
+      "instruction": "去厨房里的冰箱",
+      "target_room": "kitchen",
+      "target_object": "Refrigerator_model_5ae04e6aad4ac3042d8e1abcad3ec18d_0 (冰箱)",
+      "final_err": 0.4386194348335266,
+      "min_clearance": 0.616874612569809,
+      "success": true,
+      "elapsed_sec": 1.4959015846252441
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAABQ8",
+      "instruction": "去客厅沙发前",
+      "target_room": "living_room",
+      "target_object": "Couch_model_9b60ab33d9786572c3207a3a364bf72a_0 (客厅沙发)",
+      "final_err": 4.297265529632568,
+      "min_clearance": 0.3886704996228218,
+      "success": false,
+      "elapsed_sec": 23.73654007911682
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAABQ8",
+      "instruction": "去餐厅餐桌旁边",
+      "target_room": "kitchen",
+      "target_object": "Table_model_7201dd4d045f851c7c4f86346ae32a17_0 (餐桌)",
+      "final_err": 0.6215358972549438,
+      "min_clearance": 0.616874612569809,
+      "success": true,
+      "elapsed_sec": 1.453066110610962
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAABQ8",
+      "instruction": "去主卧的大床旁边",
+      "target_room": "living_room",
+      "target_object": "Bed_model_c358869c99f74460a217f48937367cf0_0 (卧室大床)",
+      "final_err": 9.477088928222656,
+      "min_clearance": 0.40923716276884087,
+      "success": false,
+      "elapsed_sec": 19.28864860534668
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAABY8",
+      "instruction": "去厨房里的冰箱",
+      "target_room": "kitchen",
+      "target_object": "Refrigerator_model_febd15331da1fd1a37506ee445c115c5_0 (冰箱)",
+      "final_err": 5.102616310119629,
+      "min_clearance": 0.49756244778633113,
+      "success": false,
+      "elapsed_sec": 18.592644929885864
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAABY8",
+      "instruction": "去客厅沙发前",
+      "target_room": "living_room",
+      "target_object": "Couch_model_6ab3e5b71798c1acd542467c6cb626c4_0 (客厅沙发)",
+      "final_err": 0.227173313498497,
+      "min_clearance": 0.6611373031139374,
+      "success": true,
+      "elapsed_sec": 1.2222611904144287
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAABY8",
+      "instruction": "去餐厅餐桌旁边",
+      "target_room": "kitchen",
+      "target_object": "Table_model_9d98e55f6d2026aa7675d6e35a33084c_0 (餐桌)",
+      "final_err": 3.4635555744171143,
+      "min_clearance": 0.49756244778633113,
+      "success": false,
+      "elapsed_sec": 18.649229526519775
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAABY8",
+      "instruction": "去主卧的大床旁边",
+      "target_room": "master_bedroom",
+      "target_object": "Bed_model_e0f2172eaba4bae75aebdca9e596289b_0 (卧室大床)",
+      "final_err": 2.120121717453003,
+      "min_clearance": 0.5200940763950348,
+      "success": false,
+      "elapsed_sec": 18.544965744018555
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAACA8",
+      "instruction": "去厨房里的冰箱",
+      "target_room": "kitchen",
+      "target_object": "Refrigerator_model_787e3188eac7d755ec96368c971ac70f_0 (冰箱)",
+      "final_err": 2.369875907897949,
+      "min_clearance": 0.7272908759117127,
+      "success": false,
+      "elapsed_sec": 18.075048208236694
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAACA8",
+      "instruction": "去客厅沙发前",
+      "target_room": "living_room",
+      "target_object": "Couch_model_f41135dad426a283650332b7348e77c9_0 (客厅沙发)",
+      "final_err": 1.104062795639038,
+      "min_clearance": 0.7272908759117127,
+      "success": false,
+      "elapsed_sec": 17.915218830108643
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAACA8",
+      "instruction": "去餐厅餐桌旁边",
+      "target_room": "kitchen",
+      "target_object": "Table_model_b08e8e1b33391694430bce5f41f8f3a9_0 (餐桌)",
+      "final_err": 4.826086044311523,
+      "min_clearance": 0.7272908759117127,
+      "success": false,
+      "elapsed_sec": 18.308233976364136
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAACA8",
+      "instruction": "去主卧的大床旁边",
+      "target_room": "master_bedroom",
+      "target_object": "Bed_model_7d484ffdd2a813fb8855cc374ccfcfd4_0 (卧室大床)",
+      "final_err": 3.224524736404419,
+      "min_clearance": 0.7272908759117127,
+      "success": false,
+      "elapsed_sec": 18.021809577941895
+    }
+  ]
+}

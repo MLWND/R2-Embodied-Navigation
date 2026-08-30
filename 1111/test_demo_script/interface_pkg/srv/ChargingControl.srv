@@ -1,0 +1,6 @@
+# Request
+uint8 command  # 1=开始对接, 2=取消对接
+---
+# Response
+bool success
+string message

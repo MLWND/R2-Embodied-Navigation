@@ -1,0 +1,41 @@
+repos:
+  - repo: https://github.com/PyCQA/flake8
+    rev: 4.0.1
+    hooks:
+      - id: flake8
+  - repo: https://github.com/PyCQA/isort
+    rev: 5.11.5
+    hooks:
+      - id: isort
+  - repo: https://github.com/psf/black
+    rev: 22.10.0
+    hooks:
+      - id: black
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.2.1
+    hooks:
+      - id: codespell
+        exclude: |
+            (?x)(
+                ^toolkits/grscenes_scripts/README.md|
+                ^toolkits/indoor_scenes_generation/infinigen/infinigen_examples/constraints
+            )
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.24.0
+    hooks:
+      - id: gitleaks
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v3.1.0
+    hooks:
+      - id: trailing-whitespace
+      - id: check-yaml
+      - id: end-of-file-fixer
+        exclude: '^(.*/lcmtypes/.*)'
+      - id: requirements-txt-fixer
+      - id: double-quote-string-fixer
+        exclude: '^(.*/lcmtypes/.*)'
+      - id: check-merge-conflict
+      - id: fix-encoding-pragma
+        args: ["--remove"]
+      - id: mixed-line-ending
+        args: ["--fix=lf"]

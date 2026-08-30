@@ -1,0 +1,6 @@
+# 请求部分  清错
+bool clear_error
+---
+# Response
+bool success
+string message

@@ -1,0 +1,6 @@
+# 请求部分
+bool enable           # true:使能 false:失能
+---
+# Response
+bool success
+string message

@@ -1,0 +1,8 @@
+
+uint8 mode       # 1=导航模式, 2=建图模式, 3=增量建图
+uint8 obstacle_handling # 1=考虑临时障碍, 2=忽略临时障碍
+uint8 wait_time  # 遇障等待时间(1-10秒)
+---
+# Response
+bool success
+string message

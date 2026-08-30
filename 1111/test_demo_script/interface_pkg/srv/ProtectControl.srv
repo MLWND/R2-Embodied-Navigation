@@ -1,0 +1,9 @@
+# Request
+bool mode #保护模式控制 ， true - 带平滑控制算法， false - 不带平滑控制算法   遥操使用 false
+bool protect_control # 保护模式控制 ， true - 打开保护， false - 关闭保护    遥操使用 false
+---
+# Response
+bool success
+string message
+
+

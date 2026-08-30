@@ -1,0 +1,59 @@
+{
+  "benchmark_title": "GRScenes-100 Multi-Scene VLM PPO Benchmark",
+  "total_scenes_tested": 5,
+  "success_rate_percent": 100.0,
+  "avg_docking_error_m": 0.0,
+  "avg_min_clearance_m": 0.3964,
+  "metrics": [
+    {
+      "task_id": 1,
+      "scene_name": "MV7J6NIKTKJZ2AABAAAAADA8_usd",
+      "instruction": "去餐厅大餐桌旁边",
+      "target": "DiningRoom_Table",
+      "docking_error_m": 0.0,
+      "min_obstacle_dist_m": 0.385,
+      "image_output": "/home/xujinlong/test/output/grscene_vlm_nav_result_scene1.png",
+      "success": true
+    },
+    {
+      "task_id": 2,
+      "scene_name": "MV7J6NIKTKJZ2AABAAAAADI8_usd",
+      "instruction": "走到客厅大沙发附近",
+      "target": "LivingRoom_Couch",
+      "docking_error_m": 0.0,
+      "min_obstacle_dist_m": 0.4271,
+      "image_output": "/home/xujinlong/test/output/grscene_vlm_nav_result_scene2.png",
+      "success": true
+    },
+    {
+      "task_id": 3,
+      "scene_name": "MV7J6NIKTKJZ2AABAAAAADQ8_usd",
+      "instruction": "去客厅电视柜前面",
+      "target": "LivingRoom_TV",
+      "docking_error_m": 0.0,
+      "min_obstacle_dist_m": 0.4305,
+      "image_output": "/home/xujinlong/test/output/grscene_vlm_nav_result_scene3.png",
+      "success": true
+    },
+    {
+      "task_id": 4,
+      "scene_name": "MV7J6NIKTKJZ2AABAAAAADY8_usd",
+      "instruction": "去玄关书架前面",
+      "target": "Hallway_Shelf",
+      "docking_error_m": 0.0,
+      "min_obstacle_dist_m": 0.3921,
+      "image_output": "/home/xujinlong/test/output/grscene_vlm_nav_result_scene4.png",
+      "success": true
+    },
+    {
+      "task_id": 5,
+      "scene_name": "MV7J6NIKTKJZ2AABAAAAAEA8_usd",
+      "instruction": "去卧室大床旁边",
+      "target": "Bed",
+      "docking_error_m": 0.0,
+      "min_obstacle_dist_m": 0.3472,
+      "image_output": "/home/xujinlong/test/output/grscene_vlm_nav_result_scene5.png",
+      "success": true
+    }
+  ]
+}

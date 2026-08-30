@@ -1,0 +1,40 @@
+# Large Datasets & 3D Assets (>100MB)
+GRScenes/
+GRScenes
+*.usd
+*.usda
+*.usdc
+*.obj
+*.ply
+scene_mesh_cache/
+maniskill_r2/scene_mesh_cache/
+genesis-doc/
+
+# Large Media & Rendered Video/GIFs (>2MB)
+*.mp4
+*.gif
+output/*.mp4
+output/*.gif
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+
+# Logs & Temporary files
+*.log
+*.tmp
+*.bak
+.DS_Store
+
+# IDE & Tooling
+.vscode/
+.idea/
+.agents/

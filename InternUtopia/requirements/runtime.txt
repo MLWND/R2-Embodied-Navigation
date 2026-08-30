@@ -1,0 +1,13 @@
+addict==2.4.0
+aiohttp_cors==0.7.0
+httpcore==1.0.8
+httpx==0.25.2
+inputs==0.5
+ipython==8.20.0
+lcm==1.5.0
+onnxruntime==1.19.2
+openai==1.29.0
+pyyaml==6.0.1
+rsl-rl-lib==2.2.1
+transformers==4.26.1
+vuer==0.0.32rc7

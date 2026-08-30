@@ -1,0 +1,10 @@
+# Request
+uint8 command    # 1=开始导航, 2=暂停, 3=恢复, 4=取消
+float32 x        # 目标x坐标(仅command=1时需要)
+float32 y        # 目标y坐标(仅command=1时需要)
+float32 radian   # 目标朝向(弧度)(仅command=1时需要)
+float32 speed    # 导航速度(0.3-0.6 m/s)
+---
+# Response
+bool success
+string message

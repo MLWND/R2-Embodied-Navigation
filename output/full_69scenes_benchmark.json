@@ -1,0 +1,492 @@
+{
+  "benchmark_title": "GRScenes-100 Full 69-Scene PPO Reinforcement Learning Benchmark",
+  "total_scenes_trained_and_evaluated": 69,
+  "overall_success_rate_percent": 97.1,
+  "average_docking_error_m": 0.2244,
+  "average_obstacle_clearance_m": 2.6987,
+  "scenes": [
+    {
+      "scene_name": "MV7J6NIKTKJZ2AABAAAAADA8_usd",
+      "episodes": 2,
+      "success_count": 2,
+      "docking_error": 0.18747468292713165,
+      "min_clearance": 3.6498618125915527
+    },
+    {
+      "scene_name": "MV7J6NIKTKJZ2AABAAAAADI8_usd",
+      "episodes": 2,
+      "success_count": 2,
+      "docking_error": 0.18843387067317963,
+      "min_clearance": 2.031569004058838
+    },
+    {
+      "scene_name": "MV7J6NIKTKJZ2AABAAAAADQ8_usd",
+      "episodes": 2,
+      "success_count": 2,
+      "docking_error": 0.1869676262140274,
+      "min_clearance": 2.213128089904785
+    },
+    {
+      "scene_name": "MV7J6NIKTKJZ2AABAAAAADY8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.19692157208919525,
+      "min_clearance": 3.37288761138916
+    },
+    {
+      "scene_name": "MV7J6NIKTKJZ2AABAAAAAEA8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.19869928061962128,
+      "min_clearance": 1.6738485097885132
+    },
+    {
+      "scene_name": "MV7J6NIKTKJZ2AABAAAAAEI8_usd",
+      "episodes": 2,
+      "success_count": 2,
+      "docking_error": 0.1890135556459427,
+      "min_clearance": 3.7615015506744385
+    },
+    {
+      "scene_name": "MVUCSQAKTKJ5EAABAAAAAAA8_usd",
+      "episodes": 2,
+      "success_count": 2,
+      "docking_error": 0.19867098331451416,
+      "min_clearance": 2.1077301502227783
+    },
+    {
+      "scene_name": "MVUCSQAKTKJ5EAABAAAAAAI8_usd",
+      "episodes": 2,
+      "success_count": 2,
+      "docking_error": 0.1859075427055359,
+      "min_clearance": 2.248326539993286
+    },
+    {
+      "scene_name": "MVUCSQAKTKJ5EAABAAAAAAQ8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.193940207362175,
+      "min_clearance": 3.142190456390381
+    },
+    {
+      "scene_name": "MVUCSQAKTKJ5EAABAAAAAAY8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.1866750717163086,
+      "min_clearance": 1.955346941947937
+    },
+    {
+      "scene_name": "MVUCSQAKTKJ5EAABAAAAABA8_usd",
+      "episodes": 2,
+      "success_count": 2,
+      "docking_error": 0.18561309576034546,
+      "min_clearance": 3.856248140335083
+    },
+    {
+      "scene_name": "MVUCSQAKTKJ5EAABAAAAABI8_usd",
+      "episodes": 2,
+      "success_count": 2,
+      "docking_error": 0.19029246270656586,
+      "min_clearance": 2.1224300861358643
+    },
+    {
+      "scene_name": "MVUCSQAKTKJ5EAABAAAAABQ8_usd",
+      "episodes": 2,
+      "success_count": 2,
+      "docking_error": 0.18104511499404907,
+      "min_clearance": 1.6800541877746582
+    },
+    {
+      "scene_name": "MVUCSQAKTKJ5EAABAAAAABY8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.19460909068584442,
+      "min_clearance": 3.4011332988739014
+    },
+    {
+      "scene_name": "MVUCSQAKTKJ5EAABAAAAACA8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.19620855152606964,
+      "min_clearance": 1.8665167093276978
+    },
+    {
+      "scene_name": "MVUCSQAKTKJ5EAABAAAAACI8_usd",
+      "episodes": 2,
+      "success_count": 2,
+      "docking_error": 0.18519215285778046,
+      "min_clearance": 3.9038543701171875
+    },
+    {
+      "scene_name": "MVUCSQAKTKJ5EAABAAAAACQ8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.1953345686197281,
+      "min_clearance": 2.0582172870635986
+    },
+    {
+      "scene_name": "MVUCSQAKTKJ5EAABAAAAACY8_usd",
+      "episodes": 2,
+      "success_count": 2,
+      "docking_error": 0.18661309778690338,
+      "min_clearance": 2.029008388519287
+    },
+    {
+      "scene_name": "MVUCSQAKTKJ5EAABAAAAADA8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.18594743311405182,
+      "min_clearance": 3.3275527954101562
+    },
+    {
+      "scene_name": "MVUCSQAKTKJ5EAABAAAAADI8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.1867767870426178,
+      "min_clearance": 2.0096840858459473
+    },
+    {
+      "scene_name": "MVUCSQAKTKJ5EAABAAAAADQ8_usd",
+      "episodes": 2,
+      "success_count": 2,
+      "docking_error": 0.19527682662010193,
+      "min_clearance": 3.9145333766937256
+    },
+    {
+      "scene_name": "MVUCSQAKTKJ5EAABAAAAADY8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.19337424635887146,
+      "min_clearance": 2.0249385833740234
+    },
+    {
+      "scene_name": "MVUCSQAKTKJ5EAABAAAAAEA8_usd",
+      "episodes": 2,
+      "success_count": 2,
+      "docking_error": 0.1874215006828308,
+      "min_clearance": 2.2918615341186523
+    },
+    {
+      "scene_name": "MVUCSQAKTKJ5EAABAAAAAEI8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.17978331446647644,
+      "min_clearance": 3.454104423522949
+    },
+    {
+      "scene_name": "MVUHL5YKTKJ5EAABAAAAAAA8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.1920262575149536,
+      "min_clearance": 2.1365184783935547
+    },
+    {
+      "scene_name": "MVUHL5YKTKJ5EAABAAAAAAI8_usd",
+      "episodes": 2,
+      "success_count": 2,
+      "docking_error": 0.17914631962776184,
+      "min_clearance": 3.8222174644470215
+    },
+    {
+      "scene_name": "MVUHL5YKTKJ5EAABAAAAAAQ8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.18751591444015503,
+      "min_clearance": 2.1911964416503906
+    },
+    {
+      "scene_name": "MVUHLWYKTKJ5EAABAAAAAAA8_usd",
+      "episodes": 2,
+      "success_count": 2,
+      "docking_error": 0.18672050535678864,
+      "min_clearance": 2.026048421859741
+    },
+    {
+      "scene_name": "MVUHLWYKTKJ5EAABAAAAAAI8_usd",
+      "episodes": 2,
+      "success_count": 0,
+      "docking_error": 1.1316277980804443,
+      "min_clearance": 3.1946208477020264
+    },
+    {
+      "scene_name": "MVUHLWYKTKJ5EAABAAAAAAQ8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.19558224081993103,
+      "min_clearance": 2.3049066066741943
+    },
+    {
+      "scene_name": "MVUHLWYKTKJ5EAABAAAAAAY8_usd",
+      "episodes": 2,
+      "success_count": 2,
+      "docking_error": 0.17908519506454468,
+      "min_clearance": 3.8900840282440186
+    },
+    {
+      "scene_name": "MVUHLWYKTKJ5EAABAAAAABA8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.195207417011261,
+      "min_clearance": 2.263587713241577
+    },
+    {
+      "scene_name": "MVUHLWYKTKJ5EAABAAAAABI8_usd",
+      "episodes": 2,
+      "success_count": 2,
+      "docking_error": 0.18707486987113953,
+      "min_clearance": 2.357583999633789
+    },
+    {
+      "scene_name": "MVUHLWYKTKJ5EAABAAAAABQ8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.17757301032543182,
+      "min_clearance": 3.14871883392334
+    },
+    {
+      "scene_name": "MVUHLWYKTKJ5EAABAAAAABY8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.19569841027259827,
+      "min_clearance": 2.4170172214508057
+    },
+    {
+      "scene_name": "MVUHLWYKTKJ5EAABAAAAACA8_usd",
+      "episodes": 2,
+      "success_count": 2,
+      "docking_error": 0.1937219649553299,
+      "min_clearance": 4.1697001457214355
+    },
+    {
+      "scene_name": "MVUHLWYKTKJ5EAABAAAAACI8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.19134606420993805,
+      "min_clearance": 2.177823066711426
+    },
+    {
+      "scene_name": "MVUHLWYKTKJ5EAABAAAAACQ8_usd",
+      "episodes": 2,
+      "success_count": 2,
+      "docking_error": 0.18524742126464844,
+      "min_clearance": 2.291520595550537
+    },
+    {
+      "scene_name": "MVUHLWYKTKJ5EAABAAAAACY8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.19486740231513977,
+      "min_clearance": 3.18295955657959
+    },
+    {
+      "scene_name": "MVUHLWYKTKJ5EAABAAAAADA8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.19159826636314392,
+      "min_clearance": 2.532463312149048
+    },
+    {
+      "scene_name": "MVUHLWYKTKJ5EAABAAAAADI8_usd",
+      "episodes": 2,
+      "success_count": 2,
+      "docking_error": 0.1773640364408493,
+      "min_clearance": 3.9083425998687744
+    },
+    {
+      "scene_name": "MVUHLWYKTKJ5EAABAAAAADQ8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.19270385801792145,
+      "min_clearance": 1.7519611120224
+    },
+    {
+      "scene_name": "MVUHLWYKTKJ5EAABAAAAADY8_usd",
+      "episodes": 2,
+      "success_count": 2,
+      "docking_error": 0.18850064277648926,
+      "min_clearance": 2.021385908126831
+    },
+    {
+      "scene_name": "MVUHLWYKTKJ5EAABAAAAAEA8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.18752694129943848,
+      "min_clearance": 2.729104518890381
+    },
+    {
+      "scene_name": "MVUHLWYKTKJ5EAABAAAAAEI8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.19503989815711975,
+      "min_clearance": 2.733494281768799
+    },
+    {
+      "scene_name": "MWAX5JYKTKJZ2AABAAAAAAA8_usd",
+      "episodes": 2,
+      "success_count": 2,
+      "docking_error": 0.18808749318122864,
+      "min_clearance": 3.4891791343688965
+    },
+    {
+      "scene_name": "MWAX5JYKTKJZ2AABAAAAAAI8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.1974303275346756,
+      "min_clearance": 2.0239923000335693
+    },
+    {
+      "scene_name": "MWAX5JYKTKJZ2AABAAAAAAQ8_usd",
+      "episodes": 2,
+      "success_count": 2,
+      "docking_error": 0.184052973985672,
+      "min_clearance": 2.0333781242370605
+    },
+    {
+      "scene_name": "MWAX5JYKTKJZ2AABAAAAAAY8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.19093309342861176,
+      "min_clearance": 3.138746738433838
+    },
+    {
+      "scene_name": "MWAX5JYKTKJZ2AABAAAAABA8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.19517552852630615,
+      "min_clearance": 2.9131059646606445
+    },
+    {
+      "scene_name": "MWAX5JYKTKJZ2AABAAAAABI8_usd",
+      "episodes": 2,
+      "success_count": 2,
+      "docking_error": 0.1890067458152771,
+      "min_clearance": 3.9936306476593018
+    },
+    {
+      "scene_name": "MWAX5JYKTKJZ2AABAAAAABQ8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.19141025841236115,
+      "min_clearance": 2.4983363151550293
+    },
+    {
+      "scene_name": "MWAX5JYKTKJZ2AABAAAAABY8_usd",
+      "episodes": 2,
+      "success_count": 2,
+      "docking_error": 0.19444699585437775,
+      "min_clearance": 2.0306878089904785
+    },
+    {
+      "scene_name": "MWAX5JYKTKJZ2AABAAAAACA8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.19001294672489166,
+      "min_clearance": 3.0778844356536865
+    },
+    {
+      "scene_name": "MWAX5JYKTKJZ2AABAAAAADA8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.18723151087760925,
+      "min_clearance": 3.154782772064209
+    },
+    {
+      "scene_name": "MWAX5JYKTKJZ2AABAAAAADI8_usd",
+      "episodes": 2,
+      "success_count": 2,
+      "docking_error": 0.18346057832241058,
+      "min_clearance": 3.467104434967041
+    },
+    {
+      "scene_name": "MWAX5JYKTKJZ2AABAAAAADQ8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.1859799176454544,
+      "min_clearance": 1.8780262470245361
+    },
+    {
+      "scene_name": "MWAX5JYKTKJZ2AABAAAAADY8_usd",
+      "episodes": 2,
+      "success_count": 2,
+      "docking_error": 0.1836053878068924,
+      "min_clearance": 2.1334352493286133
+    },
+    {
+      "scene_name": "MWAX5JYKTKJZ2AABAAAAAEA8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.1902066469192505,
+      "min_clearance": 3.117781162261963
+    },
+    {
+      "scene_name": "MWAX5JYKTKJZ2AABAAAAAEI8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.18945066630840302,
+      "min_clearance": 3.1297154426574707
+    },
+    {
+      "scene_name": "MWBGLKQKTKJZ2AABAAAAAAA8_usd",
+      "episodes": 2,
+      "success_count": 2,
+      "docking_error": 0.19635331630706787,
+      "min_clearance": 3.533906936645508
+    },
+    {
+      "scene_name": "MWBGLKQKTKJZ2AABAAAAAAI8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.19772659242153168,
+      "min_clearance": 2.039665699005127
+    },
+    {
+      "scene_name": "MWBGLKQKTKJZ2AABAAAAAAQ8_usd",
+      "episodes": 2,
+      "success_count": 2,
+      "docking_error": 0.19093725085258484,
+      "min_clearance": 1.9613546133041382
+    },
+    {
+      "scene_name": "MWBGLKQKTKJZ2AABAAAAAAY8_usd",
+      "episodes": 2,
+      "success_count": 0,
+      "docking_error": 1.6416374444961548,
+      "min_clearance": 2.332690954208374
+    },
+    {
+      "scene_name": "MWBGLKQKTKJZ2AABAAAAABA8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.18774068355560303,
+      "min_clearance": 3.348691463470459
+    },
+    {
+      "scene_name": "MWBGLKQKTKJZ2AABAAAAABI8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.19764940440654755,
+      "min_clearance": 3.7635090351104736
+    },
+    {
+      "scene_name": "MWBGLKQKTKJZ2AABAAAAABQ8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.19118191301822662,
+      "min_clearance": 1.9621381759643555
+    },
+    {
+      "scene_name": "MWBGLKQKTKJZ2AABAAAAABY8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.18160656094551086,
+      "min_clearance": 0.9889043569564819
+    },
+    {
+      "scene_name": "MWBGLKQKTKJZ2AABAAAAACA8_usd",
+      "episodes": 2,
+      "success_count": 1,
+      "docking_error": 0.19693906605243683,
+      "min_clearance": 2.8520090579986572
+    }
+  ]
+}

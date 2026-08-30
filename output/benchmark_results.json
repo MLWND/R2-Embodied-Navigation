@@ -1,0 +1,40 @@
+{
+  "total_test_cases": 4,
+  "success_rate_percent": 100.0,
+  "avg_docking_error_m": 0.1565,
+  "avg_obstacle_clearance_m": 0.4297,
+  "cases": [
+    {
+      "case_id": 1,
+      "instruction": "去餐厅大餐桌旁边",
+      "target": "DiningRoom_Table",
+      "docking_error_m": 0.1972,
+      "min_obstacle_dist_m": 0.38,
+      "success": true
+    },
+    {
+      "case_id": 2,
+      "instruction": "走到客厅大沙发附近",
+      "target": "LivingRoom_Couch",
+      "docking_error_m": 0.1428,
+      "min_obstacle_dist_m": 0.4918,
+      "success": true
+    },
+    {
+      "case_id": 3,
+      "instruction": "去客厅电视柜前面",
+      "target": "LivingRoom_TV",
+      "docking_error_m": 0.148,
+      "min_obstacle_dist_m": 0.5518,
+      "success": true
+    },
+    {
+      "case_id": 4,
+      "instruction": "去玄关书架前面",
+      "target": "Hallway_Shelf",
+      "docking_error_m": 0.1381,
+      "min_obstacle_dist_m": 0.2953,
+      "success": true
+    }
+  ]
+}

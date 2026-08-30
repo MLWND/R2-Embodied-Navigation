@@ -1,0 +1,30 @@
+# 主控制器配置文件
+
+# 系统配置
+system:
+  heartbeat_interval: 1.0      # 心跳间隔(秒)
+  connection_timeout: 10.0     # 连接超时(秒)
+  command_timeout: 5.0         # 命令超时(秒)
+  monitor_interval: 0.5        # 监控间隔(秒)
+  log_level: "INFO"           # 日志级别
+
+# 安全配置
+safety:
+  enable_safety_checks: true      # 启用安全检查
+  emergency_stop_timeout: 2.0     # 紧急停止超时(秒)
+  max_joint_velocity: 2.0         # 最大关节速度
+  max_joint_acceleration: 1.0     # 最大关节加速度
+
+# 动作配置
+actions:
+  default_repeat_count: 1         # 默认重复次数
+  default_transition_time: 1.0    # 默认过渡时间
+  smooth_interpolation: true       # 平滑插值
+  start_delay: 0.5                # 启动延迟
+
+# 网络配置
+network:
+  ros_domain_id: 42               # ROS域ID
+  localhost_only: 0               # 是否仅本地通信
+  qos_reliability: "RELIABLE"     # QoS可靠性
+  qos_durability: "VOLATILE"      # QoS持久性

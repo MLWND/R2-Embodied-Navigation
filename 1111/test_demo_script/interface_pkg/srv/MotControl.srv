@@ -1,0 +1,13 @@
+float32 angle       # 关节角度（度） 范围：0-90度
+uint8 speed_waist   # 腰部速度（0-100%） 
+uint8 reserve_1     # 预留字段1
+float32 pos         # 位置（单位：mm） 范围 0-600mm
+uint8 speed_ascend  # 升降机构速度（0-100%） 
+uint8 reserve_2     # 预留字段2
+float32 head_angle  # 头部角度（度） 范围：0-35度
+uint8 speed_head    # 头部速度（0-100%） 
+uint8 reserve_3     # 预留字段3
+---
+# Response
+bool success
+string message

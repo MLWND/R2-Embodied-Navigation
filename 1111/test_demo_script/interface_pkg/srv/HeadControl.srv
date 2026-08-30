@@ -1,0 +1,7 @@
+float32 head_angle    # 头部角度（度） 范围：0-35度
+uint8   head_speed    # 头部速度（0-100%） 
+uint8   reserve       # 预留字段3
+---
+# Response
+bool success
+string message

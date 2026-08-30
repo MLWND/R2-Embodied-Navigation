@@ -1,0 +1,7 @@
+# 请求部分
+float32[] left_joints      # 左手目标关节角度(单位:弧度) 
+float32[] right_joints     #右手目标关节角度(单位:弧度) 
+---
+# Response
+bool success
+string message

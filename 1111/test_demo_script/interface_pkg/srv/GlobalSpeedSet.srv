@@ -1,0 +1,6 @@
+# 请求部分
+float64 speed         # 0.0-100.0的速度百分比  全局速度设置
+---
+# Response
+bool success
+string message

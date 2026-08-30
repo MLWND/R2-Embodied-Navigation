@@ -1,0 +1,1069 @@
+{
+  "total_samples": 50,
+  "acc_0.5m_percent": 44.0,
+  "acc_1.0m_percent": 54.0,
+  "mean_error_3d_m": 1.5060475220038199,
+  "median_error_3d_m": 0.6913836458807254,
+  "std_error_3d_m": 1.6979840424759294,
+  "avg_latency_ms": 3262.847909927368,
+  "category_mean_errors": {
+    "chair": 1.3887121113580434,
+    "tv": 2.1750993840145587,
+    "shelf": 1.1777968938610872,
+    "bed": 0.7415038858096831,
+    "couch": 0.3844672559343471,
+    "table": 3.516339082216225
+  },
+  "evaluations": [
+    {
+      "scene_id": "MWAX5JYKTKJZ2AABAAAAAEI8",
+      "category": "chair",
+      "target_name": "Chair_model_745572b6e731ed96fe31b0dffce44c0c_0 (椅子)",
+      "instruction": "去单人椅子前",
+      "gt_3d": [
+        -1.7648816108703613,
+        1.9991868734359741,
+        0.41023901104927063
+      ],
+      "pred_3d": [
+        -1.8345580420384326,
+        2.108468632689815,
+        0.44300142221079164
+      ],
+      "error_3d_m": 0.13368127599275065,
+      "error_xy_m": 0.12960442880524342,
+      "acc_0.5m": true,
+      "acc_1.0m": true,
+      "latency_ms": 4442.692995071411
+    },
+    {
+      "scene_id": "MWAX5JYKTKJZ2AABAAAAAEI8",
+      "category": "chair",
+      "target_name": "Chair_model_baa11987a71e75763e11f6082a42f327_0 (椅子)",
+      "instruction": "去单人椅子前",
+      "gt_3d": [
+        -2.8351306915283203,
+        1.9991868734359741,
+        0.41023901104927063
+      ],
+      "pred_3d": [
+        -2.6468203640077257,
+        0.41431039953826154,
+        0.47369933937209197
+      ],
+      "error_3d_m": 1.597285644534565,
+      "error_xy_m": 1.596024503873722,
+      "acc_0.5m": false,
+      "acc_1.0m": false,
+      "latency_ms": 1783.2574844360352
+    },
+    {
+      "scene_id": "MWAX5JYKTKJZ2AABAAAAAEI8",
+      "category": "chair",
+      "target_name": "Chair_model_5a32b4f6954e31ed54391567c06db119_0 (椅子)",
+      "instruction": "去椅子旁边",
+      "gt_3d": [
+        -1.772695779800415,
+        0.2962474524974823,
+        0.41023901104927063
+      ],
+      "pred_3d": [
+        -1.7303797611602696,
+        1.8647213027165581,
+        0.5914494321534253
+      ],
+      "error_3d_m": 1.5794739886972975,
+      "error_xy_m": 1.569044570512452,
+      "acc_0.5m": false,
+      "acc_1.0m": false,
+      "latency_ms": 1619.0028190612793
+    },
+    {
+      "scene_id": "MWAX5JYKTKJZ2AABAAAAAEI8",
+      "category": "chair",
+      "target_name": "Chair_model_ddbb0e28bba38ff47e9c3917f6728b1a_0 (椅子)",
+      "instruction": "去椅子旁边",
+      "gt_3d": [
+        -2.707592725753784,
+        0.2962474524974823,
+        0.41023901104927063
+      ],
+      "pred_3d": [
+        -1.8022587786102973,
+        0.4170428957503312,
+        0.4132185573864978
+      ],
+      "error_3d_m": 0.9133619067256057,
+      "error_xy_m": 0.9133570468119564,
+      "acc_0.5m": false,
+      "acc_1.0m": true,
+      "latency_ms": 2803.253650665283
+    },
+    {
+      "scene_id": "MWAX5JYKTKJZ2AABAAAAAEI8",
+      "category": "chair",
+      "target_name": "Chair_model_f1881b5aa3d75b327807fb0f41581536_0 (椅子)",
+      "instruction": "找餐椅",
+      "gt_3d": [
+        2.1241068840026855,
+        0.6319111585617065,
+        0.44999998807907104
+      ],
+      "pred_3d": [
+        1.9350016502213059,
+        0.5110325074330125,
+        0.7385971635611301
+      ],
+      "error_3d_m": 0.36559645435702076,
+      "error_xy_m": 0.22443804878452042,
+      "acc_0.5m": true,
+      "acc_1.0m": true,
+      "latency_ms": 1787.7163887023926
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAAAA8",
+      "category": "tv",
+      "target_name": "Tv_model_33f825c79858e7008f0fbcb4ed00e439_0 (电视)",
+      "instruction": "找电视机",
+      "gt_3d": [
+        4.644336223602295,
+        2.4289636611938477,
+        1.3809319734573364
+      ],
+      "pred_3d": [
+        4.691062684668144,
+        2.546945328420425,
+        1.3806945183786716
+      ],
+      "error_3d_m": 0.1268979603863496,
+      "error_xy_m": 0.1268977382198011,
+      "acc_0.5m": true,
+      "acc_1.0m": true,
+      "latency_ms": 1803.4780025482178
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAAAA8",
+      "category": "tv",
+      "target_name": "Tv_model_b440aab45b819483e946544193af2770_0 (电视)",
+      "instruction": "去客厅电视机前",
+      "gt_3d": [
+        -1.1580653190612793,
+        -4.4194536209106445,
+        1.4701080322265625
+      ],
+      "pred_3d": [
+        -1.2747698058731554,
+        -4.459810748299307,
+        1.4593303461795304
+      ],
+      "error_3d_m": 0.12395480422160521,
+      "error_xy_m": 0.12348536339618589,
+      "acc_0.5m": true,
+      "acc_1.0m": true,
+      "latency_ms": 3087.1422290802
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAAAA8",
+      "category": "shelf",
+      "target_name": "Shelf_model_4e919d1bc5e78242d59500cf93e604f7_0 (书架)",
+      "instruction": "去书架旁边",
+      "gt_3d": [
+        -4.490270614624023,
+        2.5944652557373047,
+        1.5145529508590698
+      ],
+      "pred_3d": [
+        -5.21834277779318,
+        3.327256707665493,
+        0.948749861093745
+      ],
+      "error_3d_m": 1.1777968938610872,
+      "error_xy_m": 1.0329919587299976,
+      "acc_0.5m": false,
+      "acc_1.0m": false,
+      "latency_ms": 18861.974716186523
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAAAA8",
+      "category": "bed",
+      "target_name": "Bed_model_e172ce0b249165ef0a43909ba68dcfb9_0 (卧室大床)",
+      "instruction": "去卧室大床旁边",
+      "gt_3d": [
+        6.270527362823486,
+        2.202977418899536,
+        0.4582449495792389
+      ],
+      "pred_3d": [
+        6.606141026557971,
+        2.5729446398090676,
+        0.4547715643133158
+      ],
+      "error_3d_m": 0.49952411377030775,
+      "error_xy_m": 0.4995120377256246,
+      "acc_0.5m": true,
+      "acc_1.0m": true,
+      "latency_ms": 2972.5778102874756
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAAAA8",
+      "category": "bed",
+      "target_name": "Bed_model_4773f0b6bb9f5de5222cc5f1506c1e32_0 (卧室大床)",
+      "instruction": "去卧室大床旁边",
+      "gt_3d": [
+        -3.4567627906799316,
+        -4.566481113433838,
+        0.5007644891738892
+      ],
+      "pred_3d": [
+        -2.8453466656533086,
+        -3.345701517661093,
+        1.3022451558095633
+      ],
+      "error_3d_m": 1.583194163199322,
+      "error_xy_m": 1.3653323768949586,
+      "acc_0.5m": false,
+      "acc_1.0m": false,
+      "latency_ms": 1785.1698398590088
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAAAI8",
+      "category": "couch",
+      "target_name": "Couch_model_4fe13228e509e53e910e62c605f4f5b2_0 (客厅沙发)",
+      "instruction": "去客厅沙发旁边",
+      "gt_3d": [
+        2.348215341567993,
+        -1.685951828956604,
+        0.36268049478530884
+      ],
+      "pred_3d": [
+        2.454992795854464,
+        -2.0547972230706155,
+        0.3818304656121
+      ],
+      "error_3d_m": 0.3844672559343471,
+      "error_xy_m": 0.38399003828617717,
+      "acc_0.5m": true,
+      "acc_1.0m": true,
+      "latency_ms": 3089.4558429718018
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAAAI8",
+      "category": "bed",
+      "target_name": "Bed_model_4a75f1bc5090816bf091c794af4c0344_0 (卧室大床)",
+      "instruction": "找大床",
+      "gt_3d": [
+        -4.111000061035156,
+        3.725782871246338,
+        0.815947949886322
+      ],
+      "pred_3d": [
+        -3.673891827933181,
+        3.966035241402562,
+        0.8068531032034248
+      ],
+      "error_3d_m": 0.498866239634834,
+      "error_xy_m": 0.4987833285217282,
+      "acc_0.5m": true,
+      "acc_1.0m": true,
+      "latency_ms": 3120.1534271240234
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAAAI8",
+      "category": "bed",
+      "target_name": "Bed_model_f28ca4c17ea2ea5fbf5bb55998dfc4ec_0 (卧室大床)",
+      "instruction": "找大床",
+      "gt_3d": [
+        3.0772900581359863,
+        -4.239999771118164,
+        0.5191662311553955
+      ],
+      "pred_3d": [
+        2.971913264464295,
+        -3.7507702014383484,
+        0.5060199276085815
+      ],
+      "error_3d_m": 0.5006222785599626,
+      "error_xy_m": 0.5004496383190059,
+      "acc_0.5m": false,
+      "acc_1.0m": true,
+      "latency_ms": 2890.4404640197754
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAAAI8",
+      "category": "bed",
+      "target_name": "Bed_model_629a22c5f6d7d8f4da5fc3c0968c1a1c_0 (卧室大床)",
+      "instruction": "去主卧的大床前",
+      "gt_3d": [
+        4.64857292175293,
+        4.024940013885498,
+        0.534030020236969
+      ],
+      "pred_3d": [
+        4.150087734853134,
+        4.0505515854292735,
+        0.5279284078886513
+      ],
+      "error_3d_m": 0.49917999141463526,
+      "error_xy_m": 0.49914269919078874,
+      "acc_0.5m": true,
+      "acc_1.0m": true,
+      "latency_ms": 1784.3341827392578
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAAAI8",
+      "category": "chair",
+      "target_name": "Chair_model_28c0589beb791a29a3f9485103e7eff8_0 (椅子)",
+      "instruction": "去单人椅子前",
+      "gt_3d": [
+        5.410560131072998,
+        -3.0030558109283447,
+        0.34122100472450256
+      ],
+      "pred_3d": [
+        5.1794047355651855,
+        -1.1367264986038208,
+        0.42957359552383423
+      ],
+      "error_3d_m": 1.8826640844345093,
+      "error_xy_m": 1.8805897235870361,
+      "acc_0.5m": false,
+      "acc_1.0m": false,
+      "latency_ms": 2498.72088432312
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAAAQ8",
+      "category": "bed",
+      "target_name": "Bed_model_d5c8505152cee4dc92ca9f8844cc25e2_0 (卧室大床)",
+      "instruction": "去主卧的大床前",
+      "gt_3d": [
+        -1.6726553440093994,
+        2.3537328243255615,
+        0.5351250171661377
+      ],
+      "pred_3d": [
+        -1.6445423364639282,
+        2.398651361465454,
+        0.5316363573074341
+      ],
+      "error_3d_m": 0.0531054325401783,
+      "error_xy_m": 0.05299071967601776,
+      "acc_0.5m": true,
+      "acc_1.0m": true,
+      "latency_ms": 1867.4306869506836
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAAAQ8",
+      "category": "bed",
+      "target_name": "Bed_model_581319faad6865246e759e0dc597a311_0 (卧室大床)",
+      "instruction": "找大床",
+      "gt_3d": [
+        -5.024285793304443,
+        2.5714972019195557,
+        0.5351250171661377
+      ],
+      "pred_3d": [
+        -4.623216336760813,
+        2.275628030497992,
+        0.5090992794384521
+      ],
+      "error_3d_m": 0.49907175295157286,
+      "error_xy_m": 0.4983926921313007,
+      "acc_0.5m": true,
+      "acc_1.0m": true,
+      "latency_ms": 3092.508316040039
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAAAQ8",
+      "category": "bed",
+      "target_name": "Bed_model_70456d5b9624665fb604dddb932ef6eb_0 (卧室大床)",
+      "instruction": "找大床",
+      "gt_3d": [
+        -1.6508291959762573,
+        -2.92191743850708,
+        0.45524701476097107
+      ],
+      "pred_3d": [
+        -1.240776647533163,
+        -2.6383470249490615,
+        0.443278582010179
+      ],
+      "error_3d_m": 0.4986968170267905,
+      "error_xy_m": 0.4985531786380886,
+      "acc_0.5m": true,
+      "acc_1.0m": true,
+      "latency_ms": 3018.897771835327
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAAAQ8",
+      "category": "chair",
+      "target_name": "Chair_model_562301b358d8dde26d62a7ef822a9bbd_0 (椅子)",
+      "instruction": "去单人椅子前",
+      "gt_3d": [
+        1.069876790046692,
+        1.8197582960128784,
+        0.38485199213027954
+      ],
+      "pred_3d": [
+        6.111085414886475,
+        0.3298149108886719,
+        0.6715744137763977
+      ],
+      "error_3d_m": 5.264591693878174,
+      "error_xy_m": 5.256778240203857,
+      "acc_0.5m": false,
+      "acc_1.0m": false,
+      "latency_ms": 3141.8371200561523
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAAAQ8",
+      "category": "chair",
+      "target_name": "Chair_model_1a6e61f5ccd75dc48eaa36929f1b21a7_0 (椅子)",
+      "instruction": "去单人椅子前",
+      "gt_3d": [
+        1.0698766708374023,
+        2.9931132793426514,
+        0.38485199213027954
+      ],
+      "pred_3d": [
+        1.0626737822472183,
+        2.8666996474923248,
+        0.3838752103758285
+      ],
+      "error_3d_m": 0.1266224388654252,
+      "error_xy_m": 0.1266186712994277,
+      "acc_0.5m": true,
+      "acc_1.0m": true,
+      "latency_ms": 3009.1540813446045
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAAAY8",
+      "category": "tv",
+      "target_name": "Tv_model_a51f2b66d1f993d2efe8f1a092c71fee_0 (电视)",
+      "instruction": "找电视机",
+      "gt_3d": [
+        1.9564956426620483,
+        -2.090052604675293,
+        1.4131300449371338
+      ],
+      "pred_3d": [
+        5.286096572875977,
+        -2.017915725708008,
+        1.5327396392822266
+      ],
+      "error_3d_m": 3.332529306411743,
+      "error_xy_m": 3.3303823471069336,
+      "acc_0.5m": false,
+      "acc_1.0m": false,
+      "latency_ms": 3610.5103492736816
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAAAY8",
+      "category": "tv",
+      "target_name": "Tv_model_2f131c94984742364ad00a31d5626df4_0 (电视)",
+      "instruction": "去电视柜电视前",
+      "gt_3d": [
+        2.3232412338256836,
+        1.0850003957748413,
+        1.3809319734573364
+      ],
+      "pred_3d": [
+        2.079364783286154,
+        3.044384530294411,
+        0.8698568788748471
+      ],
+      "error_3d_m": 2.0395734019733793,
+      "error_xy_m": 1.9745029525768663,
+      "acc_0.5m": false,
+      "acc_1.0m": false,
+      "latency_ms": 3119.128704071045
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAAAY8",
+      "category": "tv",
+      "target_name": "Tv_model_b835f022a89f9549f05caca73fb08315_0 (电视)",
+      "instruction": "去电视柜电视前",
+      "gt_3d": [
+        1.4274970293045044,
+        -2.394200086593628,
+        1.4701080322265625
+      ],
+      "pred_3d": [
+        1.3591095040531997,
+        -2.468491507604349,
+        0.17122636413506598
+      ],
+      "error_3d_m": 1.3028006971712667,
+      "error_xy_m": 0.10097558539463902,
+      "acc_0.5m": false,
+      "acc_1.0m": false,
+      "latency_ms": 3081.1009407043457
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAAAY8",
+      "category": "chair",
+      "target_name": "Chair_model_7c12dd956f4609211cf34a61058efde6_0 (椅子)",
+      "instruction": "去椅子旁边",
+      "gt_3d": [
+        -4.69468879699707,
+        1.7630815505981445,
+        0.4114047586917877
+      ],
+      "pred_3d": [
+        -3.8598775397967455,
+        0.20589144759801237,
+        1.2205990685363075
+      ],
+      "error_3d_m": 1.9433338064045245,
+      "error_xy_m": 1.7668477161402307,
+      "acc_0.5m": false,
+      "acc_1.0m": false,
+      "latency_ms": 1733.0284118652344
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAAAY8",
+      "category": "chair",
+      "target_name": "Chair_model_00447cca9150279ff4cdbb92abe3db91_0 (椅子)",
+      "instruction": "找餐椅",
+      "gt_3d": [
+        3.5925588607788086,
+        1.4502490758895874,
+        0.4190770089626312
+      ],
+      "pred_3d": [
+        4.418879985809326,
+        -1.7249736785888672,
+        0.5575761795043945
+      ],
+      "error_3d_m": 3.2839043140411377,
+      "error_xy_m": 3.280982494354248,
+      "acc_0.5m": false,
+      "acc_1.0m": false,
+      "latency_ms": 1984.2839241027832
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAABA8",
+      "category": "chair",
+      "target_name": "Chair_model_e668e0dbeed1d024b3631b777a67aff8_0 (椅子)",
+      "instruction": "找餐椅",
+      "gt_3d": [
+        2.5068519115448,
+        0.2495117038488388,
+        0.33993399143218994
+      ],
+      "pred_3d": [
+        0.7889095950726498,
+        1.2626805207056397,
+        0.7288510215472198
+      ],
+      "error_3d_m": 2.0320170546750345,
+      "error_xy_m": 1.9944515171286332,
+      "acc_0.5m": false,
+      "acc_1.0m": false,
+      "latency_ms": 2141.192674636841
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAABA8",
+      "category": "chair",
+      "target_name": "Chair_model_13122d45e558f6d1c29027d63be88824_0 (椅子)",
+      "instruction": "去椅子旁边",
+      "gt_3d": [
+        -5.489818096160889,
+        3.1255011558532715,
+        0.38170701265335083
+      ],
+      "pred_3d": [
+        0.02747667022049427,
+        5.681023597717285,
+        1.2201817035675049
+      ],
+      "error_3d_m": 6.137937545776367,
+      "error_xy_m": 6.080397605895996,
+      "acc_0.5m": false,
+      "acc_1.0m": false,
+      "latency_ms": 4947.265386581421
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAABA8",
+      "category": "chair",
+      "target_name": "Chair_model_ae3f1702b72939a0825e1118e4077694_0 (椅子)",
+      "instruction": "找餐椅",
+      "gt_3d": [
+        -6.04892635345459,
+        0.7193731069564819,
+        0.4202370047569275
+      ],
+      "pred_3d": [
+        -5.867654800415039,
+        0.72682124376297,
+        0.3980933129787445
+      ],
+      "error_3d_m": 0.18277087807655334,
+      "error_xy_m": 0.18142449855804443,
+      "acc_0.5m": true,
+      "acc_1.0m": true,
+      "latency_ms": 3095.240831375122
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAABA8",
+      "category": "chair",
+      "target_name": "Chair_model_c166973e89bfc7a583023c6e97fc3b69_0 (椅子)",
+      "instruction": "去椅子旁边",
+      "gt_3d": [
+        -3.5616447925567627,
+        -0.46377453207969666,
+        0.4095659852027893
+      ],
+      "pred_3d": [
+        -3.6685488632869543,
+        -0.5933882531866508,
+        0.3726329322254517
+      ],
+      "error_3d_m": 0.17202397344586573,
+      "error_xy_m": 0.1680124907198185,
+      "acc_0.5m": true,
+      "acc_1.0m": true,
+      "latency_ms": 1860.6743812561035
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAABA8",
+      "category": "chair",
+      "target_name": "Chair_model_5a7d2e01bd65ad62b5bdf45f82948b27_0 (椅子)",
+      "instruction": "去单人椅子前",
+      "gt_3d": [
+        2.157177686691284,
+        -4.795015811920166,
+        0.6657800078392029
+      ],
+      "pred_3d": [
+        2.2331030569149104,
+        -4.51375973896836,
+        0.7460550707576433
+      ],
+      "error_3d_m": 0.3021816111917237,
+      "error_xy_m": 0.2913239441169684,
+      "acc_0.5m": true,
+      "acc_1.0m": true,
+      "latency_ms": 4664.698362350464
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAABI8",
+      "category": "bed",
+      "target_name": "Bed_model_85db12f6397f71c9f9b5c8019f7e6c17_0 (卧室大床)",
+      "instruction": "去卧室大床旁边",
+      "gt_3d": [
+        7.359778881072998,
+        2.391446590423584,
+        0.45824500918388367
+      ],
+      "pred_3d": [
+        7.519592125754786,
+        2.871787086316168,
+        0.5025627984545389
+      ],
+      "error_3d_m": 0.5081646697832236,
+      "error_xy_m": 0.5062284713151312,
+      "acc_0.5m": false,
+      "acc_1.0m": true,
+      "latency_ms": 3244.4982528686523
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAABI8",
+      "category": "bed",
+      "target_name": "Bed_model_04405feb8adb7a54859020d84e310650_0 (卧室大床)",
+      "instruction": "找大床",
+      "gt_3d": [
+        4.695840358734131,
+        -3.333494186401367,
+        0.45824500918388367
+      ],
+      "pred_3d": [
+        4.217765046349121,
+        -3.47966972749923,
+        0.4576990863728704
+      ],
+      "error_3d_m": 0.49992358531979003,
+      "error_xy_m": 0.4999232872424306,
+      "acc_0.5m": true,
+      "acc_1.0m": true,
+      "latency_ms": 2926.8996715545654
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAABI8",
+      "category": "bed",
+      "target_name": "Bed_model_2263a83ec3e58f8f24c2d958d8d5225f_0 (卧室大床)",
+      "instruction": "去主卧的大床前",
+      "gt_3d": [
+        2.599571704864502,
+        1.8578523397445679,
+        0.4839319884777069
+      ],
+      "pred_3d": [
+        5.655918638355944,
+        2.9031063710900256,
+        0.471196717902171
+      ],
+      "error_3d_m": 3.2301663664621216,
+      "error_xy_m": 3.2301412612928355,
+      "acc_0.5m": false,
+      "acc_1.0m": false,
+      "latency_ms": 3594.841957092285
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAABI8",
+      "category": "chair",
+      "target_name": "Chair_model_fcbc63205fec0e4a233cb3ecd0c87972_0 (椅子)",
+      "instruction": "找餐椅",
+      "gt_3d": [
+        -5.322599411010742,
+        0.8095983266830444,
+        0.4418430030345917
+      ],
+      "pred_3d": [
+        -5.276340052013224,
+        1.6791128505478672,
+        0.43153942768560166
+      ],
+      "error_3d_m": 0.8708051442037438,
+      "error_xy_m": 0.8707441848825237,
+      "acc_0.5m": false,
+      "acc_1.0m": true,
+      "latency_ms": 2969.3686962127686
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAABI8",
+      "category": "chair",
+      "target_name": "Chair_model_2793e842496fe96db3177caadffd4939_0 (椅子)",
+      "instruction": "找餐椅",
+      "gt_3d": [
+        -4.252602577209473,
+        1.8299918174743652,
+        0.4418430030345917
+      ],
+      "pred_3d": [
+        -4.422239780426025,
+        1.552812099456787,
+        0.45128917694091797
+      ],
+      "error_3d_m": 0.32510706782341003,
+      "error_xy_m": 0.3249697983264923,
+      "acc_0.5m": true,
+      "acc_1.0m": true,
+      "latency_ms": 3040.4086112976074
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAABQ8",
+      "category": "tv",
+      "target_name": "Tv_model_e0b660d0ac8283f4857cff04fdf1d955_0 (电视)",
+      "instruction": "去客厅电视机前",
+      "gt_3d": [
+        3.4724059104919434,
+        2.783031702041626,
+        1.0986319780349731
+      ],
+      "pred_3d": [
+        8.28070640186173,
+        4.008605265379065,
+        0.38266231330989053
+      ],
+      "error_3d_m": 5.013421659432319,
+      "error_xy_m": 4.962034277839942,
+      "acc_0.5m": false,
+      "acc_1.0m": false,
+      "latency_ms": 1782.3736667633057
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAABQ8",
+      "category": "tv",
+      "target_name": "Tv_model_07359f2f32795fb168308a54607365ad_0 (电视)",
+      "instruction": "去客厅电视机前",
+      "gt_3d": [
+        2.7200167179107666,
+        -1.5736504793167114,
+        1.3818345069885254
+      ],
+      "pred_3d": [
+        5.850566387176514,
+        -2.0044894218444824,
+        0.47893065214157104
+      ],
+      "error_3d_m": 3.286517858505249,
+      "error_xy_m": 3.160057544708252,
+      "acc_0.5m": false,
+      "acc_1.0m": false,
+      "latency_ms": 3041.3341522216797
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAABQ8",
+      "category": "bed",
+      "target_name": "Bed_model_853d38edfe91a88e4b41a5b8bb3b80b7_0 (卧室大床)",
+      "instruction": "找大床",
+      "gt_3d": [
+        -2.070061206817627,
+        4.695494174957275,
+        0.4801349937915802
+      ],
+      "pred_3d": [
+        -2.324363066419475,
+        5.105030103639646,
+        0.3519587823951045
+      ],
+      "error_3d_m": 0.4988168540122158,
+      "error_xy_m": 0.48206753954056086,
+      "acc_0.5m": true,
+      "acc_1.0m": true,
+      "latency_ms": 1777.8003215789795
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAABQ8",
+      "category": "bed",
+      "target_name": "Bed_model_1d741e6a397dfc80808746f90bb16a50_0 (卧室大床)",
+      "instruction": "去主卧的大床前",
+      "gt_3d": [
+        1.5561259984970093,
+        -4.484620571136475,
+        0.555109977722168
+      ],
+      "pred_3d": [
+        1.4558220049368777,
+        -3.9950387581634743,
+        0.5521428258733729
+      ],
+      "error_3d_m": 0.4997599891029038,
+      "error_xy_m": 0.49975118080704994,
+      "acc_0.5m": true,
+      "acc_1.0m": true,
+      "latency_ms": 3076.871871948242
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAABQ8",
+      "category": "bed",
+      "target_name": "Bed_model_94d2fdc35cad2b5e6525dfe6024175ec_0 (卧室大床)",
+      "instruction": "找大床",
+      "gt_3d": [
+        -3.800060987472534,
+        -4.777059555053711,
+        0.45524701476097107
+      ],
+      "pred_3d": [
+        -4.249626822059469,
+        -5.016327390998768,
+        0.5076560176728919
+      ],
+      "error_3d_m": 0.511962147557707,
+      "error_xy_m": 0.5092725566390531,
+      "acc_0.5m": false,
+      "acc_1.0m": true,
+      "latency_ms": 2213.306427001953
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAABY8",
+      "category": "table",
+      "target_name": "Table_model_9d98e55f6d2026aa7675d6e35a33084c_0 (餐桌)",
+      "instruction": "去大餐桌前",
+      "gt_3d": [
+        1.1394553184509277,
+        -3.176135301589966,
+        0.3797909915447235
+      ],
+      "pred_3d": [
+        5.68655252456665,
+        -5.4754862785339355,
+        1.4286311864852905
+      ],
+      "error_3d_m": 5.202227592468262,
+      "error_xy_m": 5.095400810241699,
+      "acc_0.5m": false,
+      "acc_1.0m": false,
+      "latency_ms": 3634.383201599121
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAABY8",
+      "category": "table",
+      "target_name": "Table_model_769da85141dde5739752fcbaaaaf67e3_0 (餐桌)",
+      "instruction": "去餐厅餐桌旁边",
+      "gt_3d": [
+        2.5199999809265137,
+        -5.304999828338623,
+        0.4325000047683716
+      ],
+      "pred_3d": [
+        2.1469983498244467,
+        -2.5997679849406623,
+        0.5364864935099309
+      ],
+      "error_3d_m": 2.7328049204397904,
+      "error_xy_m": 2.7308257987903826,
+      "acc_0.5m": false,
+      "acc_1.0m": false,
+      "latency_ms": 5990.313768386841
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAABY8",
+      "category": "table",
+      "target_name": "Table_model_488101b52692ea4b30f0846ba6843cc6_0 (餐桌)",
+      "instruction": "去大餐桌前",
+      "gt_3d": [
+        2.5199999809265137,
+        -5.304999828338623,
+        0.42500001192092896
+      ],
+      "pred_3d": [
+        4.961783409118652,
+        -11.944273948669434,
+        0.7838093638420105
+      ],
+      "error_3d_m": 7.083149433135986,
+      "error_xy_m": 7.0740556716918945,
+      "acc_0.5m": false,
+      "acc_1.0m": false,
+      "latency_ms": 8987.732887268066
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAABY8",
+      "category": "table",
+      "target_name": "Table_model_63750181486ac6ddc937eab3605a9a70_0 (餐桌)",
+      "instruction": "去大餐桌前",
+      "gt_3d": [
+        4.270718574523926,
+        -0.45361700654029846,
+        0.29869693517684937
+      ],
+      "pred_3d": [
+        3.2733562613230185,
+        -0.8718636281645732,
+        0.3859757518827973
+      ],
+      "error_3d_m": 1.0850250744287777,
+      "error_xy_m": 1.0815090477169316,
+      "acc_0.5m": false,
+      "acc_1.0m": false,
+      "latency_ms": 3003.176212310791
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAABY8",
+      "category": "table",
+      "target_name": "Table_model_25f9c02ddbe76d6c626c45d33a107f74_0 (餐桌)",
+      "instruction": "找桌子",
+      "gt_3d": [
+        2.9593772888183594,
+        -0.8895700573921204,
+        0.2748871445655823
+      ],
+      "pred_3d": [
+        3.969314961391977,
+        0.12068839468056355,
+        0.6561110665534853
+      ],
+      "error_3d_m": 1.4784883906083095,
+      "error_xy_m": 1.428494397072565,
+      "acc_0.5m": false,
+      "acc_1.0m": false,
+      "latency_ms": 1780.7672023773193
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAACA8",
+      "category": "chair",
+      "target_name": "Chair_model_9a655442e99bb2778bba78f31b93db53_0 (椅子)",
+      "instruction": "找餐椅",
+      "gt_3d": [
+        -1.3284755945205688,
+        0.05403850972652435,
+        0.4833162724971771
+      ],
+      "pred_3d": [
+        -1.2826366384219494,
+        0.16984807587422193,
+        0.48012330917786766
+      ],
+      "error_3d_m": 0.12459237746462484,
+      "error_xy_m": 0.12455145726778592,
+      "acc_0.5m": true,
+      "acc_1.0m": true,
+      "latency_ms": 3076.2836933135986
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAACA8",
+      "category": "chair",
+      "target_name": "Chair_model_952ea1f74814541e20cc4d4dacb5c73c_0 (椅子)",
+      "instruction": "去单人椅子前",
+      "gt_3d": [
+        -1.3284755945205688,
+        0.8148486018180847,
+        0.48320552706718445
+      ],
+      "pred_3d": [
+        0.15509609572056313,
+        0.5948922040138703,
+        0.8041265071812158
+      ],
+      "error_3d_m": 1.5337392387551692,
+      "error_xy_m": 1.4997885774401454,
+      "acc_0.5m": false,
+      "acc_1.0m": false,
+      "latency_ms": 1741.4860725402832
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAACA8",
+      "category": "chair",
+      "target_name": "Chair_model_15ec6cff379c7046938a9a4d70cd76e9_0 (椅子)",
+      "instruction": "去椅子旁边",
+      "gt_3d": [
+        0.1250147968530655,
+        0.021374650299549103,
+        0.4811375141143799
+      ],
+      "pred_3d": [
+        0.1386587428194958,
+        0.14749463305921962,
+        0.46730475663827864
+      ],
+      "error_3d_m": 0.12760780733257307,
+      "error_xy_m": 0.12685585249736986,
+      "acc_0.5m": true,
+      "acc_1.0m": true,
+      "latency_ms": 3081.393003463745
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAACA8",
+      "category": "chair",
+      "target_name": "Chair_model_616b9e18ccd26f95b58f6dc5cd4fbeed_0 (椅子)",
+      "instruction": "找餐椅",
+      "gt_3d": [
+        0.1250147968530655,
+        0.817369282245636,
+        0.4834270179271698
+      ],
+      "pred_3d": [
+        -1.3228176832199097,
+        0.4562741816043854,
+        0.5145264267921448
+      ],
+      "error_3d_m": 1.492506504058838,
+      "error_xy_m": 1.4921824932098389,
+      "acc_0.5m": false,
+      "acc_1.0m": false,
+      "latency_ms": 2367.5808906555176
+    },
+    {
+      "scene_id": "MWBGLKQKTKJZ2AABAAAAACA8",
+      "category": "chair",
+      "target_name": "Chair_model_e89f71f005bb995e59e11ed3437960b2_0 (椅子)",
+      "instruction": "去单人椅子前",
+      "gt_3d": [
+        0.07382696121931076,
+        3.630213499069214,
+        0.6138690114021301
+      ],
+      "pred_3d": [
+        0.022104091942310333,
+        3.478956937789917,
+        0.612475574016571
+      ],
+      "error_3d_m": 0.15986163914203644,
+      "error_xy_m": 0.15985557436943054,
+      "acc_0.5m": true,
+      "acc_1.0m": true,
+      "latency_ms": 3115.2522563934326
+    }
+  ]
+}

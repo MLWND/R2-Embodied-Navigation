@@ -1,0 +1,87 @@
+# Robot action configuration file
+# Define basic parameters and properties of actions
+
+# Action definitions
+actions:
+  wave:
+    name: "Wave"
+    description: "Robot raises right arm and waves left and right for 3 seconds"
+    duration: 5.0
+    loop: false
+    repeat_count: 1
+    transition_time: 1.0
+    smooth_interpolation: true
+    start_delay: 0.5
+    enable_safety_check: true
+    max_joint_velocity: 2.0
+    max_joint_acceleration: 1.0
+    
+  expand:
+    name: "Expand"
+    description: "Robot extends both arms outward to shoulder level, returns to initial pose after 2s, repeats in loop"
+    duration: 7.5
+    loop: true
+    repeat_count: 3  # Loop 3 times
+    transition_time: 1.5
+    smooth_interpolation: true
+    start_delay: 0.5
+    enable_safety_check: true
+    max_joint_velocity: 1.5
+    max_joint_acceleration: 0.8
+    
+  agree:
+    name: "Agree"
+    description: "Robot body slightly rises (waist joint rises), then nods 3 times, returns to initial pose after 2 seconds"
+    duration: 6.0
+    loop: false
+    repeat_count: 1
+    transition_time: 1.0
+    smooth_interpolation: true
+    start_delay: 0.5
+    enable_safety_check: true
+    max_joint_velocity: 1.8
+    max_joint_acceleration: 1.0
+
+# Safety configuration
+safety_config:
+  max_joint_velocities:
+    wheel_left_joint: 3.0
+    wheel_right_joint: 3.0
+    lift_joint: 0.5
+    waist_joint: 1.0
+    head_joint: 1.5
+    J1_left_joint: 2.0
+    J2_left_joint: 2.0
+    J3_left_joint: 2.0
+    J4_left_joint: 2.0
+    J5_left_joint: 2.0
+    J6_left_joint: 2.0
+    J7_left_joint: 2.0
+    J1_right_joint: 2.0
+    J2_right_joint: 2.0
+    J3_right_joint: 2.0
+    J4_right_joint: 2.0
+    J5_right_joint: 2.0
+    J6_right_joint: 2.0
+    J7_right_joint: 2.0
+    
+  max_joint_accelerations:
+    wheel_left_joint: 5.0
+    wheel_right_joint: 5.0
+    lift_joint: 1.0
+    waist_joint: 2.0
+    head_joint: 3.0
+    J1_left_joint: 4.0
+    J2_left_joint: 4.0
+    J3_left_joint: 4.0
+    J4_left_joint: 4.0
+    J5_left_joint: 4.0
+    J6_left_joint: 4.0
+    J7_left_joint: 4.0
+    J1_right_joint: 4.0
+    J2_right_joint: 4.0
+    J3_right_joint: 4.0
+    J4_right_joint: 4.0
+    J5_right_joint: 4.0
+    J6_right_joint: 4.0
+    J7_right_joint: 4.0
